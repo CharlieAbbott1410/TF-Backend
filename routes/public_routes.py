@@ -19,7 +19,7 @@ ARTICLE_THUMBNAILS: list[ArticleThumbnail] = [
 ]
 
 ARTICLE_DETAILS: dict[str, ArticleDetail] = {
-    "sleep": ArticleDetail(
+    "Sleep": ArticleDetail(
     title="Sleep",
     content_html="""
         <h1>Sleep: And why it's over rated</h1>

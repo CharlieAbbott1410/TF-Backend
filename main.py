@@ -12,7 +12,7 @@ app.add_middleware(
 )
 
 app.include_router(auth_router,prefix="/auth",tags=["Auth"])
-app.include_router(public_router,prefix="/auth",tags=["Puth"])
+app.include_router(public_router,prefix="/public",tags=["Public"])
 
 @app.get("/")
 def read_root():
